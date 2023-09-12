@@ -1,0 +1,409 @@
+html{scroll-behavior: smooth}
+
+.contact_btn {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background: transparent;
+  }
+  .contact_btn:hover {
+    opacity: 0.8;
+  }
+  .contact_btn:focus {
+    opacity: 0.9;
+  }
+  .contact_btn:active {
+    opacity: 1;
+  }
+
+.scrolltop{
+    text-decoration: none;
+    font-family: 'minion';
+    font-style: italic;
+    font-weight: 800;
+    color:black;
+    background-color: pink;
+    text-align: center;
+}
+
+
+.intro_container {
+    background-color: #fffbdb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 100px;
+}
+
+.scrolldown_btn{
+    position: relative;
+    top:10px;
+    right:10px;
+}
+
+.intro_left img {
+    border-radius: 50%;
+}
+
+.intro_left img:hover {
+    opacity: 70%;
+}
+
+.intro_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .intro_right h3 {
+        font-family: 'moenalica';
+        font-size: 3rem;
+        font-weight: 200
+    }
+
+      .intro_right h3:hover{
+        color: pink;
+      }
+
+    .intro_right h2 {
+        font-family: 'finoo';
+        font-size: 6rem;
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+
+    .intro_right p {
+        padding-top: 0;
+        font-family: 'san-serif';
+        font-size: 2rem;
+        color: #8D7B68;
+        font-weight: 600;
+    }
+
+
+
+.character {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+    .character button:nth-child(odd) {
+        background-color: white;
+        border: 2px solid black;
+    }
+    .character button:nth-child(even) {
+        background-color: #AED2FF;
+        border: 2px solid black;
+    }
+
+    .character button:hover {
+        background-color: pink;
+        color: white;
+    }
+
+.secondpage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/background/4.JPG);
+}
+
+    .work_container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .workcard {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 10px;
+        padding: 10px;
+        width: 25vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .wordcard img {
+        margin-top: 10px;
+        height: 100%;
+    }
+
+    .workcard_text h3 {
+        font-family: 'minion-pro';
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .workcard_text h4 {
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 1.5rem;
+    }
+
+    .workcard:hover {
+        opacity: 70%;
+        cursor: pointer;
+    }
+
+    .pageset{
+        width: 100vw;
+        display: flex;
+    }
+
+    .snue{
+        background-color: #fffbdb;
+        font-family: 'finoo';
+    }
+
+    .snue_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .snue_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .snue_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    .snuecardbox{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+    }
+    .snue_grid p{
+        width: 100%;
+        font-size: 4rem;
+        margin-left: 10vw;
+    }
+
+    
+.snue_container {
+    font-size: 5rem;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card_contents_news {
+    width: 100vw;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.snue_container .card_imgbox {
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    gap: 20px;
+}
+
+.contact_section {
+    background-color: #C3EDC0;
+    width: 100vw;
+}
+
+.contact_memo p{
+    font-family: 'minion';
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+.manage_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.management_list {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.contact_text_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.contact_maintext{
+    font-family: 'minion';
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 4vw;
+    font-size: 4.5rem;
+}
+
+.contact_memo span{
+    font-weight: 600;
+}
+
+.contact_memo a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact_memo a:hover{
+    cursor: pointer;
+}
+
+#myButton {
+    background:none;
+    border:none;
+}
+
+
+/* snue page */
+.snue_page {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #C3EDC0;
+}
+
+.seoulmate_page {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #AED2FF;
+}
+
+.other_page {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #C3EDC0;
+}
+
+.textbox_center {
+    display: flex;
+    justify-content: center;
+}
+
+.resume_maintext{
+    font-family: 'minion';
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    font-size: 6rem;
+    color: white;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+.resume_secondtext {
+    text-align: center;
+    font-size: 30px;
+}
+
+.resume_text{
+    font-weight: 300;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 150px;
+    
+}
+
+.other_text {
+    font-weight: 300;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.other_text p{
+    font-family: 'minion';
+    font-style: italic;
+    
+}
+
+.other_text span{
+    color: #65451F;
+}
+
+.skills_page {
+    display: flex;
+    flex-direction: column;
+    background-color: #AED2FF;
+    height: 100vh;
+}
+
+.skillsbutton_container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.skillsbutton{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10vw;
+    gap: 10px;
+}
+
+.skillsbutton2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10vw;
+    gap: 10px;
+}
+
+.skillsbutton button:nth-child(odd) {
+    background-color: white;
+    border: 2px solid black;
+}
+.skillsbutton button:nth-child(even) {
+    background-color: #C3EDC0;
+    border: 2px solid black;
+}
+
+.skillsbutton2 button:nth-child(even) {
+    background-color: white;
+    border: 2px solid black;
+}
+.skillsbutton2 button:nth-child(odd) {
+    background-color: #C3EDC0;
+    border: 2px solid black;
+}
+
+.skillsbutton button:hover {
+    background-color: pink;
+    color: white;
+}
+
+.skillsbutton2 button:hover {
+    background-color: pink;
+    color: white;
+}
+
